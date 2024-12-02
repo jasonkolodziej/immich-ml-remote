@@ -52,7 +52,7 @@ services:
       # - "com.centurylinklabs.watchtower.depends-on=immich_server"
       - "traefik.enable=true"
       - "traefik.http.routers.immich_machine_learning.rule=Path(`/immich_ml_remote{path:.*}`)"
-    restart: always
+    # restart: always
     # ports: #? host port: container port
       # - 80:3003
     expose:
