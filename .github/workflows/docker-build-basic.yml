@@ -18,7 +18,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: ghcr.io/jedrivisser/gce-compose
+          images:  ghcr.io/jasonkolodziej/immich-ml-remote
           tag-semver: |
             {{version}}
             {{major}}.{{minor}}
