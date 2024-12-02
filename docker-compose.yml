@@ -53,10 +53,10 @@ services:
       - "traefik.enable=true"
       - "traefik.http.routers.immich_machine_learning.rule=Path(`/immich_ml_remote{path:.*}`)"
     restart: always
-    ports: #? host port: container port
-      - 80:3003
-    # expose:
-    #   - 3003
+    # ports: #? host port: container port
+      # - 80:3003
+    expose:
+      - 3003
 
 volumes:
   model-cache:
