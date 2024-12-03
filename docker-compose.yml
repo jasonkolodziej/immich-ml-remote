@@ -2,7 +2,7 @@
 services:
   # traefik:
   #   image: traefik:v2.3.7
-  #   command: 
+  #   command:
   #     - --providers.docker
   #     - --providers.docker.exposedByDefault=false
   #     - --entrypoints.web.address=:80
@@ -39,7 +39,7 @@ services:
     # env_file: .env
     container_name: immich_machine_learning
     #* Example tag: ${IMMICH_VERSION:-release}-cuda
-    image: ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSON:-release}${HW_ACCELERATOR} #? For hardware acceleration, add oneOf( -armnn, -cuda, -openvino, -openvino-wsl) to the image tag.
+    image: ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION:-release}${HW_ACCELERATOR} #? For hardware acceleration, add oneOf( -armnn, -cuda, -openvino, -openvino-wsl) to the image tag.
     volumes:
       - model-cache:/cache
     labels:
@@ -59,19 +59,19 @@ services:
     #
     #? For GCP CloudRun NVIDIA: https://cloud.google.com/run/docs/container-contract#nvidia-libraries
     #    By default, all of the NVIDIA L4 driver libraries are mounted under /usr/local/nvidia/lib64.
-    #      If your service is unable to find the provided libraries, 
-    #      update the search path for the dynamic linker by adding the line: 
+    #      If your service is unable to find the provided libraries,
+    #      update the search path for the dynamic linker by adding the line:
     #      `ENV LD_LIBRARY_PATH /usr/local/nvidia/lib64:${LD_LIBRARY_PATH}`
     #      to your Dockerfile.
-    #!   Note: that you can also set `LD_LIBRARY_PATH` as an environment variable for the Cloud Run service, 
+    #!   Note: that you can also set `LD_LIBRARY_PATH` as an environment variable for the Cloud Run service,
     #!     if you have an existing image and don't want to rebuild the image with an updated `Dockerfile`.
     #
     #*   - If you want to use a `CUDA` version greater than `12.2`, the easiest way is to depend on a
-    #*      newer NVIDIA base image with forward compatibility packages already installed. 
-    #*   - Another option is to manually install the NVIDIA forward compatibility packages and add them to LD_LIBRARY_PATH. 
-    #*      Consult NVIDIA's compatibility matrix to determine which CUDA versions are forward compatible with the provided 
+    #*      newer NVIDIA base image with forward compatibility packages already installed.
+    #*   - Another option is to manually install the NVIDIA forward compatibility packages and add them to LD_LIBRARY_PATH.
+    #*      Consult NVIDIA's compatibility matrix to determine which CUDA versions are forward compatible with the provided
     #*      NVIDIA driver version (535.129.03).
-    
+
     #? For `image: immich-machine-learning:${IMMICH_VERSION:-release}-cuda` see: https://immich.app/docs/features/ml-hardware-acceleration#cuda
     #? Requirements:
     #*  - The GPU must have compute capability 5.2 or greater.
