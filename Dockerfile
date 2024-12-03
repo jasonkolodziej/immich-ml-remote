@@ -5,12 +5,10 @@ ARG HW_ACCELERATOR
 FROM ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION}${HW_ACCELERATOR}
 # FROM docker/compose
 ARG TARGETPLATFORM
-# ARG immich_version=release
-# ARG hw_accelerator
 RUN echo "Building for ${TARGETPLATFORM}"
 #? used to pass `--build-args` into the ENVIRONMENT
-ENV IMMICH_VERSION=${immich_version}
-ENV HW_ACCELERATOR=${hw_accelerator}
+ENV IMMICH_VERSION=${IMMICH_VERSION}
+ENV HW_ACCELERATOR=${HW_ACCELERATOR}
 RUN echo "Building for version: ${IMMICH_VERSION}"
 RUN echo "Building for with acceleration from accelerator: `${HW_ACCELERATOR:-none}`"
 
