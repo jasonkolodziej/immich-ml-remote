@@ -2,9 +2,9 @@
 #* Example tag: ${IMMICH_VERSION:-release}-cuda
 #? Reference: https://vsupalov.com/docker-build-pass-environment-variables/
 ARG IMMICH_VERSION=release
-ARG HW_ACCELERATOR
-# FROM ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION}${HW_ACCELERATOR}
-FROM docker/compose
+ARG HW_ACCELERATOR=
+FROM ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION}${HW_ACCELERATOR}
+# FROM docker/compose
 ARG TARGETPLATFORM
 RUN echo "Building for ${TARGETPLATFORM}"
 #? used to pass `--build-args` into the ENVIRONMENT
