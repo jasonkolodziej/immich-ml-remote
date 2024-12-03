@@ -1,0 +1,1081 @@
+[
+  {
+    "textPayload": "The Compose file './docker-compose.yml' is invalid because:",
+    "insertId": "674f572900029f8f160376ee",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "project_id": "jasonkolodziejsite",
+        "configuration_name": "immich-ml-remote",
+        "service_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:25.171919Z",
+    "labels": {
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global",
+      "instanceId": "004940b3b8252c4007690a9821c280ca852f8519ec0743eee8377846696f8e6fe6cc48a3c02f4ffaeb4759e3c2177b459b4a14f2e0b1bca23b652d784cd1116e767b53b961e6446f"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:08:25.179571169Z"
+  },
+  {
+    "textPayload": "Unsupported config option for services: 'immich-machine-learning'",
+    "insertId": "674f572900029fa208e7bd3d",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "immich-ml-remote-00013-shb",
+        "configuration_name": "immich-ml-remote",
+        "location": "us-central1",
+        "project_id": "jasonkolodziejsite",
+        "service_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:25.171938Z",
+    "labels": {
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "instanceId": "004940b3b8252c4007690a9821c280ca852f8519ec0743eee8377846696f8e6fe6cc48a3c02f4ffaeb4759e3c2177b459b4a14f2e0b1bca23b652d784cd1116e767b53b961e6446f",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-trigger-region": "global",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:08:25.179571169Z"
+  },
+  {
+    "textPayload": "Unsupported config option for volumes: 'model-cache'",
+    "insertId": "674f572900029fa61931ae13",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "location": "us-central1",
+        "configuration_name": "immich-ml-remote",
+        "service_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "revision_name": "immich-ml-remote-00013-shb"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:25.171942Z",
+    "labels": {
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "instanceId": "004940b3b8252c4007690a9821c280ca852f8519ec0743eee8377846696f8e6fe6cc48a3c02f4ffaeb4759e3c2177b459b4a14f2e0b1bca23b652d784cd1116e767b53b961e6446f",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-trigger-region": "global"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:08:25.179571169Z"
+  },
+  {
+    "textPayload": "Container called exit(1).",
+    "insertId": "674f5729000441cddf22ef9c",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "configuration_name": "immich-ml-remote",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:25.278928Z",
+    "severity": "WARNING",
+    "labels": {
+      "gcb-trigger-region": "global",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "instanceId": "004940b3b8252c4007690a9821c280ca852f8519ec0743eee8377846696f8e6fe6cc48a3c02f4ffaeb4759e3c2177b459b4a14f2e0b1bca23b652d784cd1116e767b53b961e6446f",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "container_name": "placeholder-1"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:08:25.284628891Z"
+  },
+  {
+    "textPayload": "Default STARTUP TCP probe failed 1 time consecutively for container \"placeholder-1\" on port 3003. The instance was not started.",
+    "insertId": "674f5731000a66387170f268",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "location": "us-central1",
+        "service_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "configuration_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:33.681528Z",
+    "severity": "ERROR",
+    "labels": {
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "instanceId": "004940b3b8252c4007690a9821c280ca852f8519ec0743eee8377846696f8e6fe6cc48a3c02f4ffaeb4759e3c2177b459b4a14f2e0b1bca23b652d784cd1116e767b53b961e6446f",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-trigger-region": "global",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:08:33.946251304Z"
+  },
+  {
+    "textPayload": "The Compose file './docker-compose.yml' is invalid because:",
+    "insertId": "674f573700067a57d0f425e7",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "immich-ml-remote-00013-shb",
+        "service_name": "immich-ml-remote",
+        "configuration_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:39.424535Z",
+    "labels": {
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "instanceId": "004940b3b88821212cccb7f4f241db6a5918ffc70143ccd08d1c6e38b3e1b90f5471baa7ba5ad78bbfe49f26c575f0c531827d9f12fe9b1ed6d0903f127b4de7ecfbdbe950475a30"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:08:39.430149845Z"
+  },
+  {
+    "textPayload": "Unsupported config option for services: 'immich-machine-learning'",
+    "insertId": "674f573700067a6c0a7ae1d3",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "immich-ml-remote",
+        "service_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "location": "us-central1",
+        "project_id": "jasonkolodziejsite"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:39.424556Z",
+    "labels": {
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "instanceId": "004940b3b88821212cccb7f4f241db6a5918ffc70143ccd08d1c6e38b3e1b90f5471baa7ba5ad78bbfe49f26c575f0c531827d9f12fe9b1ed6d0903f127b4de7ecfbdbe950475a30",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-trigger-region": "global",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:08:39.430149845Z"
+  },
+  {
+    "textPayload": "Unsupported config option for volumes: 'model-cache'",
+    "insertId": "674f573700067a70241c3fa0",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "project_id": "jasonkolodziejsite",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "service_name": "immich-ml-remote",
+        "location": "us-central1",
+        "configuration_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:39.424560Z",
+    "labels": {
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "instanceId": "004940b3b88821212cccb7f4f241db6a5918ffc70143ccd08d1c6e38b3e1b90f5471baa7ba5ad78bbfe49f26c575f0c531827d9f12fe9b1ed6d0903f127b4de7ecfbdbe950475a30",
+      "gcb-trigger-region": "global",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:08:39.430149845Z"
+  },
+  {
+    "textPayload": "Container called exit(1).",
+    "insertId": "674f573700099b33f647b8ff",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "location": "us-central1",
+        "service_name": "immich-ml-remote",
+        "configuration_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "project_id": "jasonkolodziejsite"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:39.629515Z",
+    "severity": "WARNING",
+    "labels": {
+      "instanceId": "004940b3b88821212cccb7f4f241db6a5918ffc70143ccd08d1c6e38b3e1b90f5471baa7ba5ad78bbfe49f26c575f0c531827d9f12fe9b1ed6d0903f127b4de7ecfbdbe950475a30",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-trigger-region": "global",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "container_name": "placeholder-1"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:08:39.937637521Z"
+  },
+  {
+    "textPayload": "Default STARTUP TCP probe failed 1 time consecutively for container \"placeholder-1\" on port 3003. The instance was not started.",
+    "insertId": "674f57400000b569da531746",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "service_name": "immich-ml-remote",
+        "location": "us-central1",
+        "project_id": "jasonkolodziejsite"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:48.046441Z",
+    "severity": "ERROR",
+    "labels": {
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "instanceId": "004940b3b88821212cccb7f4f241db6a5918ffc70143ccd08d1c6e38b3e1b90f5471baa7ba5ad78bbfe49f26c575f0c531827d9f12fe9b1ed6d0903f127b4de7ecfbdbe950475a30",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:08:48.268735118Z"
+  },
+  {
+    "textPayload": "The Compose file './docker-compose.yml' is invalid because:",
+    "insertId": "674f57450005d6320dee926b",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "immich-ml-remote-00013-shb",
+        "location": "us-central1",
+        "configuration_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "service_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:53.382514Z",
+    "labels": {
+      "gcb-trigger-region": "global",
+      "instanceId": "004940b3b85a9e6f9001d632e30102aff6217715c75e555f8040783d6c1509fb050c0479176e6aa92633370614a4a5d9da9b375de85501e0a58c20d924c1e55c222f9591aeecdf38",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:08:53.420012038Z"
+  },
+  {
+    "textPayload": "Unsupported config option for services: 'immich-machine-learning'",
+    "insertId": "674f57450005d648ec5f3684",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "location": "us-central1",
+        "project_id": "jasonkolodziejsite",
+        "configuration_name": "immich-ml-remote",
+        "service_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:53.382536Z",
+    "labels": {
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "instanceId": "004940b3b85a9e6f9001d632e30102aff6217715c75e555f8040783d6c1509fb050c0479176e6aa92633370614a4a5d9da9b375de85501e0a58c20d924c1e55c222f9591aeecdf38",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-trigger-region": "global",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:08:53.420012038Z"
+  },
+  {
+    "textPayload": "Unsupported config option for volumes: 'model-cache'",
+    "insertId": "674f57450005d64e285e6196",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "project_id": "jasonkolodziejsite",
+        "location": "us-central1",
+        "configuration_name": "immich-ml-remote",
+        "service_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:53.382542Z",
+    "labels": {
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "instanceId": "004940b3b85a9e6f9001d632e30102aff6217715c75e555f8040783d6c1509fb050c0479176e6aa92633370614a4a5d9da9b375de85501e0a58c20d924c1e55c222f9591aeecdf38"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:08:53.420012038Z"
+  },
+  {
+    "textPayload": "Container called exit(1).",
+    "insertId": "674f57450007a1f027c414b2",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "immich-ml-remote-00013-shb",
+        "service_name": "immich-ml-remote",
+        "location": "us-central1",
+        "configuration_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:53.500167Z",
+    "severity": "WARNING",
+    "labels": {
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "container_name": "placeholder-1",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-trigger-region": "global",
+      "instanceId": "004940b3b85a9e6f9001d632e30102aff6217715c75e555f8040783d6c1509fb050c0479176e6aa92633370614a4a5d9da9b375de85501e0a58c20d924c1e55c222f9591aeecdf38",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:08:53.591097883Z"
+  },
+  {
+    "textPayload": "Default STARTUP TCP probe failed 1 time consecutively for container \"placeholder-1\" on port 3003. The instance was not started.",
+    "insertId": "674f574a000ed43ab46b05fb",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "project_id": "jasonkolodziejsite",
+        "configuration_name": "immich-ml-remote",
+        "location": "us-central1",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "service_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:08:58.971834Z",
+    "severity": "ERROR",
+    "labels": {
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "instanceId": "004940b3b85a9e6f9001d632e30102aff6217715c75e555f8040783d6c1509fb050c0479176e6aa92633370614a4a5d9da9b375de85501e0a58c20d924c1e55c222f9591aeecdf38",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:08:59.252341532Z"
+  },
+  {
+    "textPayload": "The Compose file './docker-compose.yml' is invalid because:",
+    "insertId": "674f57500005f557be427e0a",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "immich-ml-remote",
+        "location": "us-central1",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "service_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:04.390487Z",
+    "labels": {
+      "gcb-trigger-region": "global",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "instanceId": "004940b3b869b1fc4c21a293d5db9a3de4a13ac7c7753ee59f6615be524faba4ac5fc4f8fdb0051fe946b67952214ec411dca5d2326a6a1489aff181769693b077af02991169045d",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:04.406365266Z"
+  },
+  {
+    "textPayload": "Unsupported config option for services: 'immich-machine-learning'",
+    "insertId": "674f57500005f56d561813cf",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "immich-ml-remote",
+        "location": "us-central1",
+        "project_id": "jasonkolodziejsite",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "configuration_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:04.390509Z",
+    "labels": {
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-trigger-region": "global",
+      "instanceId": "004940b3b869b1fc4c21a293d5db9a3de4a13ac7c7753ee59f6615be524faba4ac5fc4f8fdb0051fe946b67952214ec411dca5d2326a6a1489aff181769693b077af02991169045d",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:04.406365266Z"
+  },
+  {
+    "textPayload": "Unsupported config option for volumes: 'model-cache'",
+    "insertId": "674f57500005f5734f8f5ecb",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "location": "us-central1",
+        "project_id": "jasonkolodziejsite",
+        "configuration_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "service_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:04.390515Z",
+    "labels": {
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "instanceId": "004940b3b869b1fc4c21a293d5db9a3de4a13ac7c7753ee59f6615be524faba4ac5fc4f8fdb0051fe946b67952214ec411dca5d2326a6a1489aff181769693b077af02991169045d",
+      "gcb-trigger-region": "global",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:04.406365266Z"
+  },
+  {
+    "textPayload": "Container called exit(1).",
+    "insertId": "674f5750000880f7f770e169",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "configuration_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:04.557260Z",
+    "severity": "WARNING",
+    "labels": {
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "container_name": "placeholder-1",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global",
+      "instanceId": "004940b3b869b1fc4c21a293d5db9a3de4a13ac7c7753ee59f6615be524faba4ac5fc4f8fdb0051fe946b67952214ec411dca5d2326a6a1489aff181769693b077af02991169045d"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:09:04.580277113Z"
+  },
+  {
+    "textPayload": "Default STARTUP TCP probe failed 1 time consecutively for container \"placeholder-1\" on port 3003. The instance was not started.",
+    "insertId": "674f575600000bfb218b0a4c",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "configuration_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:10.003067Z",
+    "severity": "ERROR",
+    "labels": {
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "instanceId": "004940b3b869b1fc4c21a293d5db9a3de4a13ac7c7753ee59f6615be524faba4ac5fc4f8fdb0051fe946b67952214ec411dca5d2326a6a1489aff181769693b077af02991169045d",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:09:10.242956113Z"
+  },
+  {
+    "textPayload": "The Compose file './docker-compose.yml' is invalid because:",
+    "insertId": "674f575b000566722d7b47d5",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "immich-ml-remote",
+        "location": "us-central1",
+        "configuration_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "revision_name": "immich-ml-remote-00013-shb"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:15.353906Z",
+    "labels": {
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "instanceId": "004940b3b82a5b8a0cad8367fd5f0960e8b01034bde12ea60e998661078ffa929d182577fbdddcecc345318af2dec26969945c4fb46a5f4d4985dde0c05dd7b98fce01e6f0bfaae9",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:15.396399198Z"
+  },
+  {
+    "textPayload": "Unsupported config option for services: 'immich-machine-learning'",
+    "insertId": "674f575b0005668280e5868a",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "immich-ml-remote",
+        "configuration_name": "immich-ml-remote",
+        "location": "us-central1",
+        "project_id": "jasonkolodziejsite",
+        "revision_name": "immich-ml-remote-00013-shb"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:15.353922Z",
+    "labels": {
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "instanceId": "004940b3b82a5b8a0cad8367fd5f0960e8b01034bde12ea60e998661078ffa929d182577fbdddcecc345318af2dec26969945c4fb46a5f4d4985dde0c05dd7b98fce01e6f0bfaae9",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-trigger-region": "global"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:15.396399198Z"
+  },
+  {
+    "textPayload": "Unsupported config option for volumes: 'model-cache'",
+    "insertId": "674f575b00056686c04bc02c",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "immich-ml-remote-00013-shb",
+        "configuration_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "service_name": "immich-ml-remote",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:15.353926Z",
+    "labels": {
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-trigger-region": "global",
+      "instanceId": "004940b3b82a5b8a0cad8367fd5f0960e8b01034bde12ea60e998661078ffa929d182577fbdddcecc345318af2dec26969945c4fb46a5f4d4985dde0c05dd7b98fce01e6f0bfaae9",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:15.396399198Z"
+  },
+  {
+    "textPayload": "Container called exit(1).",
+    "insertId": "674f575b000763034b8f7e20",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "immich-ml-remote-00013-shb",
+        "service_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "configuration_name": "immich-ml-remote",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:15.484063Z",
+    "severity": "WARNING",
+    "labels": {
+      "container_name": "placeholder-1",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "instanceId": "004940b3b82a5b8a0cad8367fd5f0960e8b01034bde12ea60e998661078ffa929d182577fbdddcecc345318af2dec26969945c4fb46a5f4d4985dde0c05dd7b98fce01e6f0bfaae9",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-trigger-region": "global"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:09:15.572072296Z"
+  },
+  {
+    "textPayload": "Default STARTUP TCP probe failed 1 time consecutively for container \"placeholder-1\" on port 3003. The instance was not started.",
+    "insertId": "674f57600003c936ceb49475",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "project_id": "jasonkolodziejsite",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "configuration_name": "immich-ml-remote",
+        "location": "us-central1",
+        "service_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:20.248118Z",
+    "severity": "ERROR",
+    "labels": {
+      "gcb-trigger-region": "global",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "instanceId": "004940b3b82a5b8a0cad8367fd5f0960e8b01034bde12ea60e998661078ffa929d182577fbdddcecc345318af2dec26969945c4fb46a5f4d4985dde0c05dd7b98fce01e6f0bfaae9",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:09:20.571321117Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 9,
+        "message": "Ready condition status changed to False for Revision immich-ml-remote-00013-shb with message: The user-provided container failed to start and listen on the port defined provided by the PORT=3003 environment variable within the allocated timeout. This can happen when the container port is misconfigured or if the timeout is too short. The health check timeout can be extended. Logs for this revision might contain more information.\n\nLogs URL: https://console.cloud.google.com/logs/viewer?project=jasonkolodziejsite&resource=cloud_run_revision/service_name/immich-ml-remote/revision_name/immich-ml-remote-00013-shb&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22immich-ml-remote%22%0Aresource.labels.revision_name%3D%22immich-ml-remote-00013-shb%22 \nFor more troubleshooting guidance, see https://cloud.google.com/run/docs/troubleshooting#container-failed-to-start"
+      },
+      "serviceName": "run.googleapis.com",
+      "methodName": "/Services.ReplaceService",
+      "resourceName": "namespaces/jasonkolodziejsite/revisions/immich-ml-remote-00013-shb",
+      "response": {
+        "metadata": {
+          "name": "immich-ml-remote-00013-shb",
+          "namespace": "792944792239",
+          "selfLink": "/apis/serving.knative.dev/v1/namespaces/792944792239/revisions/immich-ml-remote-00013-shb",
+          "uid": "0871f97e-c355-47ce-b05a-79f0538c8cd9",
+          "resourceVersion": "AAYoYmcHRCw",
+          "generation": 1,
+          "creationTimestamp": "2024-12-03T19:08:02.366314Z",
+          "labels": {
+            "client.knative.dev/nonce": "rghmssjkgf",
+            "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+            "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+            "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+            "gcb-trigger-region": "global",
+            "managed-by": "gcp-cloud-build-deploy-cloud-run",
+            "serving.knative.dev/configuration": "immich-ml-remote",
+            "serving.knative.dev/configurationGeneration": "13",
+            "serving.knative.dev/service": "immich-ml-remote",
+            "serving.knative.dev/serviceUid": "513343ff-81d9-49f2-bc1b-abc00ae5c9e0",
+            "serving.knative.dev/route": "immich-ml-remote",
+            "cloud.googleapis.com/location": "us-central1",
+            "run.googleapis.com/startupProbeType": "Default"
+          },
+          "annotations": {
+            "run.googleapis.com/client-name": "gcloud",
+            "run.googleapis.com/startup-cpu-boost": "true",
+            "serving.knative.dev/creator": "792944792239-compute@developer.gserviceaccount.com",
+            "run.googleapis.com/client-version": "502.0.0",
+            "run.googleapis.com/execution-environment": "gen2",
+            "run.googleapis.com/launch-stage": "BETA",
+            "run.googleapis.com/cpu-throttling": "false",
+            "run.googleapis.com/operation-id": "95eb873f-8a20-4dc6-ba01-d60d9437ff47",
+            "autoscaling.knative.dev/maxScale": "2"
+          },
+          "ownerReferences": [
+            {
+              "kind": "Configuration",
+              "name": "immich-ml-remote",
+              "uid": "23436084-36e8-48ca-b4c8-9357eed8b987",
+              "apiVersion": "serving.knative.dev/v1",
+              "controller": true,
+              "blockOwnerDeletion": true
+            }
+          ]
+        },
+        "apiVersion": "serving.knative.dev/v1",
+        "kind": "Revision",
+        "spec": {
+          "containerConcurrency": 80,
+          "timeoutSeconds": 300,
+          "serviceAccountName": "792944792239-compute@developer.gserviceaccount.com",
+          "containers": [
+            {
+              "name": "placeholder-1",
+              "image": "us-central1-docker.pkg.dev/jasonkolodziejsite/cloud-run-source-deploy/immich-ml-remote/immich-ml-remote@sha256:59d537ff18fc6da00066653925cda0d596415cf4e1e69f83eb004181e952dc6b",
+              "args": [
+                "up"
+              ],
+              "ports": [
+                {
+                  "name": "http1",
+                  "containerPort": 3003
+                }
+              ],
+              "env": [
+                {
+                  "name": "HW_ACCELERATOR",
+                  "value": "-cuda"
+                }
+              ],
+              "resources": {
+                "limits": {
+                  "cpu": "4000m",
+                  "nvidia.com/gpu": "1",
+                  "memory": "16Gi"
+                }
+              },
+              "volumeMounts": [
+                {
+                  "name": "model-cache",
+                  "mountPath": "/cache"
+                }
+              ],
+              "startupProbe": {
+                "timeoutSeconds": 240,
+                "periodSeconds": 240,
+                "failureThreshold": 1,
+                "tcpSocket": {
+                  "port": 3003
+                }
+              }
+            }
+          ],
+          "volumes": [
+            {
+              "name": "model-cache",
+              "emptyDir": {
+                "medium": "Memory",
+                "sizeLimit": "8Gi"
+              }
+            }
+          ],
+          "nodeSelector": {
+            "run.googleapis.com/accelerator": "nvidia-l4"
+          }
+        },
+        "status": {
+          "observedGeneration": 1,
+          "conditions": [
+            {
+              "type": "Ready",
+              "status": "False",
+              "reason": "HealthCheckContainerError",
+              "message": "The user-provided container failed to start and listen on the port defined provided by the PORT=3003 environment variable within the allocated timeout. This can happen when the container port is misconfigured or if the timeout is too short. The health check timeout can be extended. Logs for this revision might contain more information.\n\nLogs URL: https://console.cloud.google.com/logs/viewer?project=jasonkolodziejsite&resource=cloud_run_revision/service_name/immich-ml-remote/revision_name/immich-ml-remote-00013-shb&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22immich-ml-remote%22%0Aresource.labels.revision_name%3D%22immich-ml-remote-00013-shb%22 \nFor more troubleshooting guidance, see https://cloud.google.com/run/docs/troubleshooting#container-failed-to-start",
+              "lastTransitionTime": "2024-12-03T19:09:20.699436Z"
+            },
+            {
+              "type": "ContainerHealthy",
+              "status": "False",
+              "reason": "HealthCheckContainerError",
+              "message": "The user-provided container failed to start and listen on the port defined provided by the PORT=3003 environment variable within the allocated timeout. This can happen when the container port is misconfigured or if the timeout is too short. The health check timeout can be extended. Logs for this revision might contain more information.\n\nLogs URL: https://console.cloud.google.com/logs/viewer?project=jasonkolodziejsite&resource=cloud_run_revision/service_name/immich-ml-remote/revision_name/immich-ml-remote-00013-shb&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22immich-ml-remote%22%0Aresource.labels.revision_name%3D%22immich-ml-remote-00013-shb%22 \nFor more troubleshooting guidance, see https://cloud.google.com/run/docs/troubleshooting#container-failed-to-start",
+              "lastTransitionTime": "2024-12-03T19:09:20.699436Z"
+            },
+            {
+              "type": "ContainerReady",
+              "status": "True",
+              "message": "Container image import completed in 1.241543s.",
+              "lastTransitionTime": "2024-12-03T19:08:04.284802Z"
+            },
+            {
+              "type": "ResourcesAvailable",
+              "status": "True",
+              "message": "Revision deployment finished in 16.330834s. Checking container health.",
+              "lastTransitionTime": "2024-12-03T19:08:20.611668Z"
+            },
+            {
+              "type": "Retry",
+              "status": "True",
+              "reason": "ImmediateRetry",
+              "message": "System will retry after 0:00:00 from lastTransitionTime for attempt 0.",
+              "lastTransitionTime": "2024-12-03T19:08:20.611668Z",
+              "severity": "Info"
+            }
+          ],
+          "logUrl": "https://console.cloud.google.com/logs/viewer?project=jasonkolodziejsite&resource=cloud_run_revision/service_name/immich-ml-remote/revision_name/immich-ml-remote-00013-shb&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22immich-ml-remote%22%0Aresource.labels.revision_name%3D%22immich-ml-remote-00013-shb%22",
+          "imageDigest": "us-central1-docker.pkg.dev/jasonkolodziejsite/cloud-run-source-deploy/immich-ml-remote/immich-ml-remote@sha256:59d537ff18fc6da00066653925cda0d596415cf4e1e69f83eb004181e952dc6b",
+          "containerStatuses": [
+            {
+              "name": "placeholder-1",
+              "imageDigest": "us-central1-docker.pkg.dev/jasonkolodziejsite/cloud-run-source-deploy/immich-ml-remote/immich-ml-remote@sha256:59d537ff18fc6da00066653925cda0d596415cf4e1e69f83eb004181e952dc6b"
+            }
+          ]
+        },
+        "@type": "type.googleapis.com/google.cloud.run.v1.Revision"
+      }
+    },
+    "insertId": "-y2snd1e1tbk4",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "project_id": "jasonkolodziejsite",
+        "service_name": "immich-ml-remote",
+        "configuration_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:20.707650Z",
+    "severity": "ERROR",
+    "logName": "projects/jasonkolodziejsite/logs/cloudaudit.googleapis.com%2Fsystem_event",
+    "receiveTimestamp": "2024-12-03T19:09:21.132428250Z"
+  },
+  {
+    "textPayload": "The Compose file './docker-compose.yml' is invalid because:",
+    "insertId": "674f5766000542899418a7f7",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "immich-ml-remote-00013-shb",
+        "project_id": "jasonkolodziejsite",
+        "service_name": "immich-ml-remote",
+        "location": "us-central1",
+        "configuration_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:26.344713Z",
+    "labels": {
+      "instanceId": "004940b3b898795e115cf36e16027f940aa605b1c8e8c14a4930d4194a9cdce4ca833c8591452753fb163135d45f0acc00152e8327bc838f808f738ec7220450d268d36fc9be781e",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-trigger-region": "global",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:26.387690036Z"
+  },
+  {
+    "textPayload": "Unsupported config option for services: 'immich-machine-learning'",
+    "insertId": "674f5766000542a33e732938",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "configuration_name": "immich-ml-remote",
+        "location": "us-central1",
+        "revision_name": "immich-ml-remote-00013-shb"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:26.344739Z",
+    "labels": {
+      "instanceId": "004940b3b898795e115cf36e16027f940aa605b1c8e8c14a4930d4194a9cdce4ca833c8591452753fb163135d45f0acc00152e8327bc838f808f738ec7220450d268d36fc9be781e",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-trigger-region": "global"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:26.387690036Z"
+  },
+  {
+    "textPayload": "Unsupported config option for volumes: 'model-cache'",
+    "insertId": "674f5766000542a8d4945c1c",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "project_id": "jasonkolodziejsite",
+        "location": "us-central1",
+        "service_name": "immich-ml-remote",
+        "configuration_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:26.344744Z",
+    "labels": {
+      "instanceId": "004940b3b898795e115cf36e16027f940aa605b1c8e8c14a4930d4194a9cdce4ca833c8591452753fb163135d45f0acc00152e8327bc838f808f738ec7220450d268d36fc9be781e",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:26.387690036Z"
+  },
+  {
+    "textPayload": "Container called exit(1).",
+    "insertId": "674f57660007ce98e58460d1",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "location": "us-central1",
+        "service_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:26.511587Z",
+    "severity": "WARNING",
+    "labels": {
+      "container_name": "placeholder-1",
+      "gcb-trigger-region": "global",
+      "instanceId": "004940b3b898795e115cf36e16027f940aa605b1c8e8c14a4930d4194a9cdce4ca833c8591452753fb163135d45f0acc00152e8327bc838f808f738ec7220450d268d36fc9be781e",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:09:26.559576443Z"
+  },
+  {
+    "textPayload": "Default STARTUP TCP probe failed 1 time consecutively for container \"placeholder-1\" on port 3003. The instance was not started.",
+    "insertId": "674f576c000f042a9c90be92",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "location": "us-central1",
+        "configuration_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "project_id": "jasonkolodziejsite",
+        "service_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:32.984106Z",
+    "severity": "ERROR",
+    "labels": {
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-trigger-region": "global",
+      "instanceId": "004940b3b898795e115cf36e16027f940aa605b1c8e8c14a4930d4194a9cdce4ca833c8591452753fb163135d45f0acc00152e8327bc838f808f738ec7220450d268d36fc9be781e",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:09:33.221562574Z"
+  },
+  {
+    "textPayload": "The Compose file './docker-compose.yml' is invalid because:",
+    "insertId": "674f5774000635ba6e33f94f",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "immich-ml-remote",
+        "location": "us-central1",
+        "configuration_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "revision_name": "immich-ml-remote-00013-shb"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:40.406970Z",
+    "labels": {
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-trigger-region": "global",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "instanceId": "004940b3b875029c8ceffc1b8273853d59b2757e7d1a0fc4368d2ad71d845ed5ef55bd55a1ad3c1ecc9774c8b04c1a6232767969bdb5c2cf48195bea10327b92bd8df6a7d220ea9a"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:40.412997547Z"
+  },
+  {
+    "textPayload": "Unsupported config option for services: 'immich-machine-learning'",
+    "insertId": "674f5774000635d96024f476",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "revision_name": "immich-ml-remote-00013-shb",
+        "configuration_name": "immich-ml-remote",
+        "location": "us-central1",
+        "service_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:40.407001Z",
+    "labels": {
+      "instanceId": "004940b3b875029c8ceffc1b8273853d59b2757e7d1a0fc4368d2ad71d845ed5ef55bd55a1ad3c1ecc9774c8b04c1a6232767969bdb5c2cf48195bea10327b92bd8df6a7d220ea9a",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:40.412997547Z"
+  },
+  {
+    "textPayload": "Unsupported config option for volumes: 'model-cache'",
+    "insertId": "674f5774000635dd27844fb3",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "project_id": "jasonkolodziejsite",
+        "configuration_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "location": "us-central1",
+        "service_name": "immich-ml-remote"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:40.407005Z",
+    "labels": {
+      "instanceId": "004940b3b875029c8ceffc1b8273853d59b2757e7d1a0fc4368d2ad71d845ed5ef55bd55a1ad3c1ecc9774c8b04c1a6232767969bdb5c2cf48195bea10327b92bd8df6a7d220ea9a",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "gcb-trigger-region": "global"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fstderr",
+    "receiveTimestamp": "2024-12-03T19:09:40.412997547Z"
+  },
+  {
+    "textPayload": "Container called exit(1).",
+    "insertId": "674f57740009850281b7ffc1",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "service_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb",
+        "configuration_name": "immich-ml-remote",
+        "project_id": "jasonkolodziejsite",
+        "location": "us-central1"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:40.623829Z",
+    "severity": "WARNING",
+    "labels": {
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d",
+      "instanceId": "004940b3b875029c8ceffc1b8273853d59b2757e7d1a0fc4368d2ad71d845ed5ef55bd55a1ad3c1ecc9774c8b04c1a6232767969bdb5c2cf48195bea10327b92bd8df6a7d220ea9a",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "container_name": "placeholder-1",
+      "gcb-trigger-region": "global",
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:09:40.885699114Z"
+  },
+  {
+    "textPayload": "Default STARTUP TCP probe failed 1 time consecutively for container \"placeholder-1\" on port 3003. The instance was not started.",
+    "insertId": "674f5779000585bbd080d15d",
+    "resource": {
+      "type": "cloud_run_revision",
+      "labels": {
+        "configuration_name": "immich-ml-remote",
+        "location": "us-central1",
+        "project_id": "jasonkolodziejsite",
+        "service_name": "immich-ml-remote",
+        "revision_name": "immich-ml-remote-00013-shb"
+      }
+    },
+    "timestamp": "2024-12-03T19:09:45.361915Z",
+    "severity": "ERROR",
+    "labels": {
+      "commit-sha": "2f311795bd9629385327144dc7e0c99f2b9c27e5",
+      "managed-by": "gcp-cloud-build-deploy-cloud-run",
+      "gcb-trigger-region": "global",
+      "instanceId": "004940b3b875029c8ceffc1b8273853d59b2757e7d1a0fc4368d2ad71d845ed5ef55bd55a1ad3c1ecc9774c8b04c1a6232767969bdb5c2cf48195bea10327b92bd8df6a7d220ea9a",
+      "gcb-trigger-id": "a4bee98a-d976-4248-8272-cf854c96c87b",
+      "gcb-build-id": "80a49f60-2625-428e-a6e3-89143cd6428d"
+    },
+    "logName": "projects/jasonkolodziejsite/logs/run.googleapis.com%2Fvarlog%2Fsystem",
+    "receiveTimestamp": "2024-12-03T19:09:45.545167644Z"
+  }
+]

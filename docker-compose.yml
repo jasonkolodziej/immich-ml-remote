@@ -39,9 +39,11 @@ services:
     # env_file: .env
     container_name: immich_machine_learning
     #* Example tag: ${IMMICH_VERSION:-release}-cuda
-    image: ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION}${HW_ACCELERATOR} #? For hardware acceleration, add oneOf( -armnn, -cuda, -openvino, -openvino-wsl) to the image tag.
+    image: ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION:-release}${HW_ACCELERATOR} #? For hardware acceleration, add oneOf( -armnn, -cuda, -openvino, -openvino-wsl) to the image tag.
     volumes:
-      - model-cache:/cache
+      # - model-cache:/cache
+      - /var/run/docker.sock:/var/run/docker.sock
+
     labels:
       # - "com.centurylinklabs.watchtower.enable=false"
       # - "com.centurylinklabs.watchtower.monitor-only=true"
@@ -49,10 +51,10 @@ services:
       - "traefik.enable=true"
       - "traefik.http.routers.immich_machine_learning.rule=Path(`/immich_ml_remote{path:.*}`)"
     # restart: always
-    # ports: #? host port: container port
-    #   - 3003:3003
-    expose:
-      - 3003
+    ports: #? host port: container port
+      - 3003:3003
+    # expose:
+    #   - 3003
     # extends: #? uncomment this section for hardware acceleration
     #*   file: hwaccel.ml.yml #? - see: https://immich.app/docs/features/ml-hardware-acceleration
     #*   service: cpu #? set to oneOf( -armnn, -cuda, -openvino, -openvino-wsl) for accelerated inference -- use the `-wsl` version for WSL2 where applicable
@@ -86,6 +88,5 @@ services:
               count: 1
               capabilities:
                 - gpu
-
-volumes:
-  model-cache:
+# volumes:
+#   model-cache:
