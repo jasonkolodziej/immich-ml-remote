@@ -4,17 +4,38 @@
 # you can inline the config for a backend by copying its contents
 # into the immich-machine-learning service in the docker-compose.yml file.
 
-# See https://immich.app/docs/features/ml-hardware-acceleration for info on usage.
+#? See https://immich.app/docs/features/ml-hardware-acceleration for info on usage.
 
 services:
   armnn:
     devices:
       - /dev/mali0:/dev/mali0
     volumes:
-      - /lib/firmware/mali_csffw.bin:/lib/firmware/mali_csffw.bin:ro # Mali firmware for your chipset (not always required depending on the driver)
-      - /usr/lib/libmali.so:/usr/lib/libmali.so:ro # Mali driver for your chipset (always required)
+      - /lib/firmware/mali_csffw.bin:/lib/firmware/mali_csffw.bin:ro #? Mali firmware for your chipset (not always required depending on the driver)
+      - /usr/lib/libmali.so:/usr/lib/libmali.so:ro #? Mali driver for your chipset (always required)
 
   cpu: {}
+
+#? For GCP CloudRun NVIDIA: https://cloud.google.com/run/docs/container-contract#nvidia-libraries
+#    By default, all of the NVIDIA L4 driver libraries are mounted under /usr/local/nvidia/lib64.
+#      If your service is unable to find the provided libraries, 
+#      update the search path for the dynamic linker by adding the line: 
+#      `ENV LD_LIBRARY_PATH /usr/local/nvidia/lib64:${LD_LIBRARY_PATH}`
+#      to your Dockerfile.
+#!   Note: that you can also set `LD_LIBRARY_PATH` as an environment variable for the Cloud Run service, 
+#!     if you have an existing image and don't want to rebuild the image with an updated `Dockerfile`.
+#
+#*   - If you want to use a `CUDA` version greater than `12.2`, the easiest way is to depend on a
+#*      newer NVIDIA base image with forward compatibility packages already installed. 
+#*   - Another option is to manually install the NVIDIA forward compatibility packages and add them to LD_LIBRARY_PATH. 
+#*      Consult NVIDIA's compatibility matrix to determine which CUDA versions are forward compatible with the provided 
+#*      NVIDIA driver version (535.129.03).
+
+#? For `image: immich-machine-learning:${IMMICH_VERSION:-release}-cuda` see: https://immich.app/docs/features/ml-hardware-acceleration#cuda
+#? Requirements:
+#*  - The GPU must have compute capability 5.2 or greater.
+#*  - The server must have the official NVIDIA driver installed.
+#*  - The installed driver must be >= 535 (it must support CUDA 12.2).
 
   cuda:
     deploy:
