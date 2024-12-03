@@ -39,7 +39,7 @@ services:
     # env_file: .env
     container_name: immich_machine_learning
     #* Example tag: ${IMMICH_VERSION:-release}-cuda
-    image: ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION:-release}${HW_ACCELERATOR} #? For hardware acceleration, add oneOf( -armnn, -cuda, -openvino, -openvino-wsl) to the image tag.
+    image: ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION}${HW_ACCELERATOR} #? For hardware acceleration, add oneOf( -armnn, -cuda, -openvino, -openvino-wsl) to the image tag.
     volumes:
       # - model-cache:/cache
       - /var/run/docker.sock:/var/run/docker.sock
